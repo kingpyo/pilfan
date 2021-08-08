@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>김동필 팬사이트</title>
+    <script src="colors.js"></script>
+    <style>
+          h1{
+            text-align: center;
+            border-bottom: 3px gray solid;
+            font-size: 50px;
+            text-decoration: none;
+            margin: 1px;
+        }
+        
+        a{
+            color:black;
+            text-decoration: black;
+            }
+        
+        ol{
+            border-right: 3px gray solid;
+            width: 100px;
+            margin: 1px;
+            padding: 20px;
+        }
+
+        #grid{
+            display: grid;
+            grid-template-columns: 150px 1fr;
+        }
+
+        #grid ol{
+         padding-left:33px;
+        }
+        #grid #article{
+        padding-left:25px;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <h1><a href="3.html">김동필 팬사이트</a></h1>
+    <div id="grid">
+        <ol>
+            <li><a href="4.html">그의 생애</a></li>
+            <br>
+            <li><a href="5.html">그의 모습들</a></li>
+        </ol>
+        <div id="article">
+            <h2>그의 모습들</h2>
+            <br>
+
+            <h3>그의 멋진 모습1</h3>
+            <img src="KakaoTalk_20210808_211012859.jpg"> <br>
+
+            <h3>그의 멋진 모습2</h3>
+            <img src="KakaoTalk_20210808_211029086.jpg">
+
+
+
+
+        </div>
+
+        <input  type="button" value="Night" onclick="
+        nightdayhandler(this);
+        
+        ">
+    </div>
+
+    
+</div>
+</body>
+</html>
